@@ -1,0 +1,7 @@
+project: envy
+target: from-iter
+
+cmds:
+  - cmd: /from_iter
+  - cmd: /from_iter_no_inst @@
+    libfuzzer: false
